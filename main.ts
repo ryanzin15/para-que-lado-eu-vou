@@ -1,3 +1,12 @@
+input.onGesture(Gesture.ScreenUp, function () {
+    basic.showLeds(`
+        . . # . .
+        . # # # .
+        # . # . #
+        . . # . .
+        . . # . .
+        `)
+})
 input.onGesture(Gesture.TiltLeft, function () {
     basic.showLeds(`
         . . # . .
@@ -10,9 +19,9 @@ input.onGesture(Gesture.TiltLeft, function () {
 input.onGesture(Gesture.ScreenDown, function () {
     basic.showLeds(`
         . . # . .
-        . # # # .
-        # . # . #
         . . # . .
+        # . # . #
+        . # # # .
         . . # . .
         `)
 })

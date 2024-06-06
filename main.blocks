@@ -10,10 +10,16 @@
         # # # # # 
         . . . # . 
         . . # . .
-        `</field></block></statement></block><block type="device_gesture_event" id="6*,qImPS7)qYDiB:!5@o" x="851" y="206"><field name="NAME">Gesture.ScreenDown</field><statement name="HANDLER"><block type="device_show_leds" id="c@cf3wk0hitL6,AQ!Xc*"><field name="LEDS">`
+        `</field></block></statement></block><block type="device_gesture_event" id="6*,qImPS7)qYDiB:!5@o" x="851" y="206"><field name="NAME">Gesture.ScreenUp</field><statement name="HANDLER"><block type="device_show_leds" id="c@cf3wk0hitL6,AQ!Xc*"><field name="LEDS">`
         . . # . . 
         . # # # . 
         # . # . # 
         . . # . . 
+        . . # . .
+        `</field></block></statement></block><block type="device_gesture_event" id=".w{ww$G/I$VY]YL40|?b" x="1121" y="199"><field name="NAME">Gesture.ScreenDown</field><statement name="HANDLER"><block type="device_show_leds" id="XKxDEx$S1VMSvKQaY+~Y"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
         . . # . .
         `</field></block></statement></block></xml>
